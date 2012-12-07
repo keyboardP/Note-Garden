@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="NoteControl.Note"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="30" d:DesignWidth="30" Width="30" Height="30">
+    
+    <Grid x:Name="LayoutRoot">
+    	<Path x:Name="notePath" Data="M5,7.57943 L6.00586,7.57943 L6.00586,7.8431 C6.00586,7.99935 6.0319,8.13932 6.08398,8.26302 C6.13607,8.38672 6.22721,8.5153 6.35742,8.64876 C6.48763,8.78223 6.66016,8.93034 6.875,9.0931 C7.08984,9.25586 7.36003,9.44792 7.68555,9.66927 C7.99805,9.88412 8.25846,10.0973 8.4668,10.3089 C8.67513,10.5205 8.84115,10.7386 8.96484,10.9632 C9.08854,11.1878 9.1748,11.4222 9.22363,11.6663 C9.27246,11.9105 9.29688,12.179 9.29688,12.472 C9.29688,12.8431 9.24642,13.1947 9.14551,13.5267 C9.0446,13.8587 8.90625,14.181 8.73047,14.4935 L7.96875,14.2396 C8.03385,13.9987 8.08105,13.779 8.11035,13.5804 C8.13965,13.3818 8.1543,13.1784 8.1543,12.9701 C8.1543,12.7292 8.13477,12.5127 8.0957,12.3206 C8.05664,12.1286 7.98991,11.9463 7.89551,11.7738 C7.80111,11.6012 7.6709,11.4352 7.50488,11.2757 C7.33887,11.1162 7.12891,10.9453 6.875,10.763 C6.67318,10.6198 6.50228,10.5042 6.3623,10.4163 C6.22233,10.3285 6.10352,10.2324 6.00586,10.1283 L6.00586,18.7611 C6.00586,19.1712 5.94238,19.5618 5.81543,19.9329 C5.68848,20.304 5.51107,20.6296 5.2832,20.9095 C5.05534,21.1895 4.7819,21.4124 4.46289,21.5785 C4.14388,21.7445 3.79232,21.8275 3.4082,21.8275 C2.76367,21.8275 2.26888,21.6582 1.92383,21.3197 C1.57878,20.9811 1.40625,20.5189 1.40625,19.9329 C1.40625,19.5684 1.48112,19.2282 1.63086,18.9124 C1.7806,18.5967 1.98405,18.3232 2.24121,18.0921 C2.49837,17.861 2.79622,17.6787 3.13477,17.5452 C3.47331,17.4118 3.83138,17.3451 4.20898,17.3451 C4.50195,17.3451 4.76562,17.3809 5,17.4525 z" Margin="7.359,1,7.25,1.21" RenderTransformOrigin="0.5,0.5" Stretch="Fill" UseLayoutRounding="False" HorizontalAlignment="Center" VerticalAlignment="Center">
+    		<Path.Fill>
+    			<SolidColorBrush Color="Black">
+    				<SolidColorBrush.RelativeTransform>
+    					<MatrixTransform Matrix="Identity"/>
+    				</SolidColorBrush.RelativeTransform>
+    				<SolidColorBrush.Transform>
+    					<MatrixTransform Matrix="Identity"/>
+    				</SolidColorBrush.Transform>
+    			</SolidColorBrush>
+    		</Path.Fill>
+    		<Path.RenderTransform>
+    			<TransformGroup>
+    				<ScaleTransform/>
+    				<SkewTransform/>
+    				<RotateTransform/>
+    				<TranslateTransform/>
+    			</TransformGroup>
+    		</Path.RenderTransform>
+    	</Path>
+    </Grid>
+</UserControl>

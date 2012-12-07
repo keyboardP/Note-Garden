@@ -1,0 +1,11 @@
+﻿Special thanks to www.freesound.org and digifishmusic for the musical scales
+http://www.freesound.org/people/digifishmusic/sounds/94812/
+
+Sound was licensed under the Creative Commons Attribution 3.0 license
+http://creativecommons.org/licenses/by/3.0/
+
+The sound has been split into individual files by keyboardP, using Audacity 
+http://audacity.sourceforge.net/
+
+Individual files also licensed under the Creative Commons Attribution 3.0 license (see above)
+
